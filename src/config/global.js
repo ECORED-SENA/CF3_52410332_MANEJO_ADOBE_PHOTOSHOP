@@ -1,17 +1,30 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Capas y máscaras',
+    descripcionCurso:
+      'El componente formativo proporciona un tutorial sobre el uso de capas y máscaras en Adobe Photoshop. Explica diferentes tipos de capas, como de imagen, texto, ajuste, relleno y forma, además de objetos inteligentes. También cubre las máscaras de capa y vectoriales, su comportamiento, visualización y borrado, destacando la edición no destructiva y la organización mediante el panel de capas.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-5', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-5.png'),
       },
     ],
   },
@@ -31,28 +44,88 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Capas',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Capa de imagen',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Capa de texto',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Capa de ajuste',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Capa de relleno',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Capa de forma',
+            hash: 't_1_5',
+          },
+          {
+            numero: '1.6',
+            titulo: 'Objeto inteligente',
+            hash: 't_1_6',
+          },
+          {
+            numero: '1.7',
+            titulo: 'Grupos de capas',
+            hash: 't_1_7',
+          },
+          {
+            numero: '1.8',
+            titulo: 'Panel de capas',
+            hash: 't_1_8',
+          },
+          {
+            numero: '1.9',
+            titulo: 'Operaciones con capas',
+            hash: 't_1_9',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Máscaras',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Las máscaras de capa',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Máscara vectorial',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Comportamiento de las máscaras',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Visualización de máscaras',
+            hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: 'Borrado de máscaras',
+            hash: 't_2_5',
+          },
+        ],
       },
     ],
     subMenu: [

@@ -1,15 +1,29 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float2 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 20%
+    right: 90%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 40%
+    right: 80%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 20%
+    right: 20%
+  &-4
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 70%
+    right: 70%
+  &-5
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 70%
+    right: 20%
 
 @keyframes float1
   0%
@@ -18,3 +32,109 @@
   100%
     transform: translateY(0px)
 
+@keyframes float2
+  0%
+    transform: translateX(20px)
+
+  100%
+    transform: translateX(0px)
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/img1.png") !important
+
+.tarjeta.color-acento-botones
+  background-color: #DDD4F5
+
+i.fas.fa-pencil-alt
+  color: #31A8FF
+
+.tabs-a__tab
+  background-color: #31A8FF
+
+.hr1
+  border: 2px dashed #BDAAEB
+  margin-bottom: 1em
+
+.bg
+  &-c1
+    background-image: url("../assets/curso/intro/img1.png")
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+    background-size: contain
+    background-position: bottom
+    margin-bottom: -48px
+    @media screen and ( max-width: $bp-max-md )
+      margin-bottom: -24px
+  &-c2
+    background-color: #DDD4F5
+  &-c3
+    background-color: #FDEFEC
+    background-image: url("../assets/curso/tema1/img2.svg")
+    background-repeat: no-repeat
+    background-position: right
+    background-size: contain
+  &-c4
+    border: 2px solid #31A8FF
+  &-c5
+    background-color: #EDE8F9
+  &-c6
+    background-color: #EDE8F9
+    background-image: url("../assets/curso/tema1/img8.svg")
+    background-repeat: no-repeat
+    background-position: right bottom
+  &-c7
+    background-image: url("../assets/curso/tema1/img5.png")
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+    background-size: contain
+    background-position: center
+  &-c8
+    background-color: #FDEFEC
+  &-c9
+    border: 2px solid #31A8FF
+    background-color: #ACDBFF
+  &-c10
+    background-image: url("../assets/curso/tema1/img20.png")
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+    background-size: cover
+  &-c11
+    background-color: #CFF6FC
+    background-image: url("../assets/curso/tema1/img2.svg")
+    background-repeat: no-repeat
+    background-position: right bottom
+  &-c12
+    background-color: #EDE8F9
+    border: 3px solid #BDAAEB
+  &-c13
+    background-color: #FBD8D1
+  &-c14
+    background-image: url("../assets/curso/tema1/img35.png")
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+    background-size: cover
+  &-c15
+    background-color: #D5EDFF
+  &-c16
+    background-color: #A0EEF9
+    background-image: url("../assets/curso/tema1/img14.svg")
+    background-repeat: no-repeat
+    border-radius: 15px
+    background-position: right bottom
+    transition: all 0.5s ease-out
+  &-c16:hover
+    background-color: #FBD8D1
+
+.fig
+  &-w1
+    width: 100px
+  &-w2
+    width: 250px
+  &-w3
+    width: 350px
+  &-w4
+    width: 450px
+  &-w5
+    width: 750px
+  &-w6
+    width: 40px
