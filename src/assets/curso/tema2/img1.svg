@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="Grupo_1101520" data-name="Grupo 1101520" transform="translate(7950 -6497)">
+    <rect id="Rectángulo_402785" data-name="Rectángulo 402785" width="60" height="60" transform="translate(-7950 6497)" fill="#5b2ccf"/>
+    <g id="Grupo_1101519" data-name="Grupo 1101519" transform="translate(-7950.356 6492.975)">
+      <path id="Trazado_877346" data-name="Trazado 877346" d="M50.361,44.97V22.935a4.916,4.916,0,0,0-4.91-4.91H15.266a4.916,4.916,0,0,0-4.91,4.91V44.97a4.916,4.916,0,0,0,4.91,4.91H45.451a4.916,4.916,0,0,0,4.91-4.91Zm-2.125,0a2.787,2.787,0,0,1-2.784,2.784H15.266a2.787,2.787,0,0,1-2.784-2.784V22.935a2.787,2.787,0,0,1,2.784-2.784H45.451a2.787,2.787,0,0,1,2.784,2.784Z" fill="#fff"/>
+      <path id="Trazado_877347" data-name="Trazado 877347" d="M38.837,28.448A10.389,10.389,0,1,0,49.226,38.837,10.4,10.4,0,0,0,38.837,28.448Zm0,18.653A8.264,8.264,0,1,1,47.1,38.837,8.273,8.273,0,0,1,38.837,47.1Z" transform="translate(-8.479 -4.885)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
