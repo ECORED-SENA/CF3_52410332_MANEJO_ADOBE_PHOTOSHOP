@@ -23,15 +23,14 @@
         <template v-if="aprobado">
           <h3>¡BUEN TRABAJO!</h3>
           <p class="mb-0 text-center">
-            Se evidencia una buen manejo de los conceptos estudiados en esta
-            unidad.
+            ¡Excelente! Ha superado la actividad.
           </p>
         </template>
         <template v-else>
           <h3>VUELVE A INTENTARLO</h3>
           <p class="mb-0 text-center">
-            Se recomienda revisar el contenido de la unidad para clarificar
-            conceptos.
+            Le recomendamos volver a revisar el componente formativo e intentar
+            nuevamente la actividad didáctica.
           </p>
         </template>
         <hr class="w-100" />

@@ -175,32 +175,87 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Capas',
+      referencia:
+        'Saber Programas Imagen. (2021). <i>Cómo usar CAPAS en Photoshop (video)</i>. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=Cwah8U6vdz8',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Las máscaras de capa',
+      referencia:
+        'Saber Programas Imagen. (2021). <i>Cómo usar las MÁSCARAS de CAPA en Photoshop (video)</i>. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=MFneSEiq0Ew&t=30s',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Capa de ajuste',
+      significado:
+        'permite hacer cambios significativos a la imagen sin descomponer la original, aplicando efectos como brillo, contraste y niveles que afectan las capas situadas debajo.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Capa de imagen',
+      significado:
+        'también conocida como capa de píxeles, contiene las imágenes que se encuentran en el lienzo o los trazos de pintura cuando se trabaja con Photoshop.',
+    },
+    {
+      termino: 'Capa de relleno',
+      significado:
+        'aplica un color, que puede ser degradado, de color uniforme o de motivo, afectando las capas inferiores. Está compuesta de dos capas: una para el relleno y otra para la máscara de capa.',
+    },
+    {
+      termino: 'Capa de texto',
+      significado:
+        'se crea al hacer clic sobre el lienzo con la herramienta de texto, generando una capa transparente con el nombre formado por las palabras digitadas.',
+    },
+    {
+      termino: 'Capa de forma',
+      significado:
+        'al crear una forma vectorial con herramientas como pluma, rectángulo, elipse, entre otras, esta se aloja en una capa de forma.',
+    },
+    {
+      termino: 'Máscara de capa',
+      significado:
+        'se utiliza para ocultar sectores de la imagen sin modificarla, permitiendo ver las áreas que se encuentran debajo de la imagen a la que se le aplica la máscara.',
+    },
+    {
+      termino: 'Máscara vectorial',
+      significado:
+        'se crea con herramientas de forma o pluma, dibujando formas precisas que luego se convierten en trazados de recorte. Permiten ediciones no destructivas.',
+    },
+    {
+      termino: 'Objeto inteligente',
+      significado:
+        'crea un contenedor del original de la imagen o vector en la capa, permitiendo editar el contenedor sin afectar la imagen original. Facilita la aplicación de filtros modificables en cualquier momento.',
+    },
+    {
+      termino: 'Opacidad',
+      significado:
+        'determina el grado en que una capa permite ver a través de ella, afectando la visibilidad de la imagen de la capa que está debajo. La opacidad puede variar entre 0 % (traslúcida) y 100 % (totalmente opaca).',
+    },
+    {
+      termino: 'Panel de capas',
+      significado:
+        'contiene las operaciones que se realizan con las capas, facilitando el trabajo del usuario. Permite realizar tareas como enlazar capas, aplicar filtros, crear máscaras, agrupar capas, entre otras.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia: 'Adobe. (2024). <i>Conceptos básicos de las capas</i>. ',
+      link:
+        'https://helpx.adobe.com/co/photoshop/using/masking-layers.html?x-product=Helpx%2F1.0.0&x-product-location=Search%3AForums%3Alink%2F3.2.10',
+    },
+    {
+      referencia: 'Adobe. (2023). <i>Máscaras de capas</i>. ',
+      link:
+        'https://helpx.adobe.com/co/photoshop/using/masking-layers.html?x-product=Helpx%2F1.0.0&x-product-location=Search%3AForums%3Alink%2F3.2.10',
+    },
+    {
+      referencia:
+        'Adobe Systems Software Ireland Ltd. (2015). <i>Conceptos básicos de las capas</i>. Consultado el 03 de diciembre de 2015, en. ',
+      link: 'https://helpx.adobe.com/es/photoshop/using/layer-basics.html',
     },
   ],
   creditos: [
@@ -223,8 +278,13 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Sergio Alfredo Morales Domínguez',
+          cargo: 'Experto temático',
+          centro: 'Regional Quindío - Centro Agroindustrial',
+        },
+        {
+          nombre: 'Ana Catalina Córdoba Sus',
+          cargo: 'Evaluadora instruccional ',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -233,35 +293,35 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
+          nombre: 'Juan Daniel Polanco Muñoz',
+          cargo: 'Diseñador de contenidos digitales ',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Jhon Jairo Urueta Alvarez',
           cargo: 'Desarrollador <i>full stack</i>',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
+        //{
+        //  nombre: 'Nombre',
+        //  cargo: 'Animador y productor audiovisual',
+        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        //},
       ],
     },
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
-        {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Jaime Hernán Tejada Llano',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
+        //{
+        //  nombre: 'Luis Gabriel Urueta Alvarez',
+        //  cargo: 'Validador y vinculador de recursos educativos digitales',
+        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        //},
+        //{
+        //  nombre: 'Jaime Hernán Tejada Llano',
+        //  cargo: 'Validador y vinculador de recursos educativos digitales',
+        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        //},
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
