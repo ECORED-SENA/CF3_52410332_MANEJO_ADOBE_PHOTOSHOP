@@ -17,7 +17,7 @@
                   figure
                     img(src='@/assets/curso/intro/img1.svg', alt='').fig-w1.m-auto
                 .col
-                  p.mb-0 En componente formativo se darán a conocer las diversas herramientas, funcionamiento y características que le servirán a la hora de aplicarlo en los diversos proyectos que va a desarrollar en Adobe Photoshop, sacándole el máximo provecho, como son las capas y las máscaras.
+                  p.mb-0 En este componente formativo se darán a conocer las diversas herramientas, funcionamiento y características que le servirán a la hora de aplicarlo en los diversos proyectos que va a desarrollar en Adobe Photoshop, sacándole el máximo provecho, como son las capas y las máscaras.
               .row(data-aos="fade-right")
                 .col-xl-auto.pe-lg-0.px-0
                   figure

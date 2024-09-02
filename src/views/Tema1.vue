@@ -38,13 +38,8 @@
                   p.mb-0 Una capa de fondo puede convertirse en capa de imagen desde la barra del menú capa.
     Separador
     #t_1_1
-    .row.align-items-center.mb-5(data-aos="fade-right")
-      .col-auto.pe-0
-        figure
-          img(src='@/assets/curso/tema1/img5.svg', alt='')
-      .col-auto.bg-c4
-        .p-1
-          h2.mb-0 Capa de imagen
+    .titulo-segundo.color-primario
+      h2 1.1 Capa de imagen
     .row
       .col-lg-7(data-aos="fade-right")
         p Es conocida como capa de píxeles y contiene las imágenes que se encuentran en el lienzo sobre el que se está trabajando o los trazos de pintura cuando se pinta con Photoshop, pero si no existe la capa de fondo, esta puede reemplazarla.
@@ -55,13 +50,8 @@
           img(src='@/assets/curso/tema1/img2.png', alt='').m-auto
     Separador
     #t_1_2
-    .row.align-items-center.mb-5(data-aos="fade-right")
-      .col-auto.pe-0
-        figure
-          img(src='@/assets/curso/tema1/img5.svg', alt='')
-      .col-auto.bg-c4
-        .p-1
-          h2.mb-0 Capa de texto
+    .titulo-segundo.color-primario
+      h2 1.2 Capa de texto
     .row.mb-5
       .col-12
         .p-4.bg-c5(data-aos="fade-down")
@@ -83,13 +73,8 @@
                 img(src='@/assets/curso/tema1/img3.png', alt='Imagen que presenta cómo convertir una capa de texto en una imagen.').fig-w5.m-auto
     Separador
     #t_1_3
-    .row.align-items-center.mb-5(data-aos="fade-right")
-      .col-auto.pe-0
-        figure
-          img(src='@/assets/curso/tema1/img5.svg', alt='')
-      .col-auto.bg-c4
-        .p-1
-          h2.mb-0 Capa de ajuste
+    .titulo-segundo.color-primario
+      h2 1.3 Capa de ajuste
     .row.bg-c7
       .col-12
         .px-5.pb-5
@@ -260,13 +245,8 @@
           img(src='@/assets/curso/tema1/img11.svg', alt='').fig-w3.m-auto
     Separador
     #t_1_4
-    .row.align-items-center.mb-5(data-aos="fade-right")
-      .col-auto.pe-0
-        figure
-          img(src='@/assets/curso/tema1/img5.svg', alt='')
-      .col-auto.bg-c4
-        .p-1
-          h2.mb-0 Capa de relleno
+    .titulo-segundo.color-primario
+      h2 1.4 Capa de relleno
     .row.mb-5
       .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         p La capa de relleno aplica un color que puede ser: degradado, de color uniforme o de motivo, este afecta las capas inferiores; además, se compone de dos capas, una que introduce el relleno y otra que es la máscara de capa.
@@ -299,23 +279,13 @@
           .row
             .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
               #t_1_5
-              .row.align-items-center.mb-5
-                .col-auto.pe-0
-                  figure
-                    img(src='@/assets/curso/tema1/img5.svg', alt='')
-                .col-auto.bg-c4
-                  .p-1
-                    h2.mb-0 Capa de forma
+              .titulo-segundo.color-primario
+                h2 1.5 Capa de forma
               p.mb-0 Al crear una forma vectorial con las herramientas de dibujo, pluma, rectángulo, rectángulo redondeado, elipse, polígono, línea y forma libre, estas se alojan en una capa de forma.
               Separador
               #t_1_6
-              .row.align-items-center.mb-5
-                .col-auto.pe-0
-                  figure
-                    img(src='@/assets/curso/tema1/img5.svg', alt='')
-                .col-auto.bg-c4
-                  .p-1
-                    h2.mb-0 Objeto inteligente
+              .titulo-segundo.color-primario
+                h2 1.6 Objeto inteligente
               p El objeto inteligente crea una especie de contenedor del original de la imagen o vector en la capa, de esta manera, conserva las características de la imagen original, en otras palabras, edita el contenedor sin afectar la original; a esto se le conoce como edición no destructiva de la capa.
               .row.mb-3
                 .col-12
@@ -332,13 +302,8 @@
                 img(src='@/assets/curso/tema1/img21.png', alt='').fig-w4.m-auto
           Separador
           #t_1_7
-          .row.align-items-center.mb-5(data-aos="fade-right")
-            .col-auto.pe-0
-              figure
-                img(src='@/assets/curso/tema1/img5.svg', alt='')
-            .col-auto.bg-c4
-              .p-1
-                h2.mb-0 Grupos de capas
+          .titulo-segundo.color-primario
+            h2 1.7 Grupos de capas
           p(data-aos="fade-right") Por lo general, cuando se trabaja con imágenes, ya sea haciendo retoques o pintando, se utilizan muchas capas para evitar confusiones, es por esto que Photoshop dispone de la característica de crear grupos de capas.
           .row.align-items-center
             .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
@@ -346,16 +311,14 @@
                 img(src='@/assets/curso/tema1/img22.png', alt='').fig-w3.m-auto
             .col-lg-9(data-aos="fade-left")
               p Cuando los grupos de capas se agrupan, es importante que en lo posible estas sean similares, es decir, que realicen la misma función, porque esto le permite trabajar de forma organizada.
-              p.mb-0 En el panel de capas un grupo se visualiza con el siguiente ícono , al dar clic sobre el triángulo que está a la izquierda de la carpeta, esta se abre y le permite acceder a los elementos que componen el grupo de capas.
+              p En el panel de capas un grupo se visualiza con el siguiente ícono:
+              figure.mb-3
+                img(src='@/assets/curso/tema1/img43.png', alt='').fig-w1.m-auto.shadow.rounded
+              p.mb-0 Al dar clic sobre el triángulo que está a la izquierda de la carpeta, esta se abre y le permite acceder a los elementos que componen el grupo de capas.
     Separador
     #t_1_8
-    .row.align-items-center.mb-5(data-aos="fade-right")
-      .col-auto.pe-0
-        figure
-          img(src='@/assets/curso/tema1/img5.svg', alt='')
-      .col-auto.bg-c4
-        .p-1
-          h2.mb-0 Panel de capas
+    .titulo-segundo.color-primario
+      h2 1.8 Panel de capas
     p.mb-5(data-aos="fade-right") Este panel contiene las operaciones que se realizan con las capas, de esta manera facilita el trabajo del usuario.
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="fade-down")
@@ -527,13 +490,8 @@
                     p.mb-0 Se pueden bloquear varias capas o grupos de capas, y para hacer esto, se seleccionan las capas y luego se da clic en la opción del modo de bloqueo que desee aplicar.
     Separador
     #t_1_9
-    .row.align-items-center.mb-5(data-aos="fade-right")
-      .col-auto.pe-0
-        figure
-          img(src='@/assets/curso/tema1/img5.svg', alt='')
-      .col-auto.bg-c4
-        .p-1
-          h2.mb-0 Operaciones con capas
+    .titulo-segundo.color-primario
+      h2 1.9 Operaciones con capas
     p.mb-5(data-aos="fade-right") En la parte inferior del panel Capas, se encuentra un conjunto de herramientas que le permite realizar diferentes tareas con las capas, tales como: enlazar capas, aplicar filtros, crear máscaras, crear nueva capa de relleno, agrupar capas, crear una nueva capa y eliminar capas.
     .row.justify-content-center
       .col-lg-10(data-aos="fade-down")
@@ -626,7 +584,7 @@
                     img(src='@/assets/curso/tema1/img38.png', alt='').m-auto
           .row.align-items-center.mb-5
             .col-lg-9.mb-4.mb-lg-0(data-aos="fade-right")
-              p Despliega una persiana con una variedad de opciones, desde la que se pueden seleccionar las diferentes capas de ajuste y relleno a crear, además, ofrece las mismas opciones que el panel de ajuste, pero a diferencia de este, para su utilización, requiere que el usuario realice un mayor número de clics.
+              p Despliega una persiana con una variedad de opciones, desde la que se pueden seleccionar las diferentes capas de ajuste y relleno a crear. Además, ofrece las mismas opciones que el panel de ajuste, pero a diferencia de este, para su utilización, requiere que el usuario realice un mayor número de clics.
             .col-lg-3(data-aos="fade-left")
               figure
                 img(src='@/assets/curso/tema1/img18.svg', alt='').fig-w3.m-auto
@@ -650,7 +608,9 @@
                 .col-auto.pe-0
                   figure
                     img(src='@/assets/curso/tema1/img40.png', alt='').m-auto
-          p.text-center.mb-0 Cuando se trabaja en Photoshop, por lo general, se crean muchas capas, por esto es útil agruparlas para mantener organizado el espacio de trabajo; al momento de realizar esta acción, se deben seleccionar varias capas y dar clic sobre el siguiente ícono.
+          p Cuando se trabaja en Photoshop, por lo general, se crean muchas capas, por esto es útil agruparlas para mantener organizado el espacio de trabajo; al momento de realizar esta acción, se deben seleccionar varias capas y dar clic sobre el siguiente ícono.
+          figure
+            img(src='@/assets/curso/tema1/img44.png', style="width: 35px", alt='').m-auto.shadow
       .col-11.col-md-8.col-lg-4.mb-4.mb-lg-0(data-aos="fade-down")
         .p-4.bg-c16.h-100
           .row.justify-content-center.mb-4
@@ -661,7 +621,10 @@
                 .col-auto.pe-0
                   figure
                     img(src='@/assets/curso/tema1/img41.png', alt='').m-auto
-          p.text-center.mb-0 Con un solo clic en el siguiente ícono, agrega una capa de imagen transparente inmediatamente sobre la capa que se encuentra activa, pero si no hay ninguna capa seleccionada, ubica la nueva capa en la parte superior de la pila.
+          p Con un solo clic en el siguiente ícono.
+          figure.mb-3
+            img(src='@/assets/curso/tema1/img45.png', style="width: 35px", alt='').m-auto.shadow
+          p.mb-0 Agrega una capa de imagen transparente inmediatamente sobre la capa que se encuentra activa, pero si no hay ninguna capa seleccionada, ubica la nueva capa en la parte superior de la pila.
       .col-11.col-md-8.col-lg-4(data-aos="fade-left")
         .p-4.bg-c16
           .row.justify-content-center.mb-4
@@ -672,8 +635,11 @@
                 .col-auto.pe-0
                   figure
                     img(src='@/assets/curso/tema1/img42.png', alt='').m-auto
-          p.text-center Para eliminar una capa, selecciónela y dé clic sobre el siguiente ícono o también puede hacerlo con clic sostenido arrastrando la capa hasta el ícono mencionado.
-          p.text-center.mb-0 #[b Se puede cambiar el orden de las capas, haciendo clic sostenido sobre la capa que se quiere mover y después la arrastra hasta la posición que desee.]
+          p Para eliminar una capa, selecciónela y dé clic sobre el siguiente ícono.
+          figure.mb-3
+            img(src='@/assets/curso/tema1/img46.png', style="width: 35px", alt='').m-auto.shadow
+          p O también puede hacerlo con clic sostenido arrastrando la capa hasta el ícono mencionado.
+          p.mb-0 #[b Se puede cambiar el orden de las capas, haciendo clic sostenido sobre la capa que se quiere mover y después la arrastra hasta la posición que desee.]
       
 </template>
 

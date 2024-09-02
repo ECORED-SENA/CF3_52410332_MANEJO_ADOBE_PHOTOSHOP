@@ -21,13 +21,8 @@
           img(src='@/assets/curso/tema2/img1.png', alt='').fig-w2.m-auto
     Separador
     #t_2_1
-    .row.align-items-center.mb-5(data-aos="fade-right")
-      .col-auto.pe-0
-        figure
-          img(src='@/assets/curso/tema1/img5.svg', alt='')
-      .col-auto.bg-c4
-        .p-1
-          h2.mb-0 Las máscaras de capa
+    .titulo-segundo.color-primario
+      h2 2.1 Las máscaras de capa
     .row.mb-4
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         p Cuando sea necesario aislar un objeto de su fondo, se puede utilizar la herramienta borrador de fondos, pero con el agravante de que se destruye el fondo de la imagen; para evitar esta situación, lo mejor es aplicar una máscara de capa.
@@ -66,13 +61,8 @@
                 img(src='@/assets/curso/tema2/img5.png', alt='').fig-w5.m-auto
     Separador
     #t_2_2
-    .row.align-items-center.mb-5(data-aos="fade-right")
-      .col-auto.pe-0
-        figure
-          img(src='@/assets/curso/tema1/img5.svg', alt='')
-      .col-auto.bg-c4
-        .p-1
-          h2.mb-0 Máscara vectorial
+    .titulo-segundo.color-primario
+      h2 2.2 Máscara vectorial
     p.mb-5(data-aos="fade-right") Con las herramientas de creación de trazados, se pueden dibujar formas precisas y luego convertirlas en trazados de recorte, para esto se debe activar en la barra de opciones de las herramientas de trazado, la opción #[b Trazado].
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="fade-left")
@@ -130,13 +120,8 @@
       .col-12
         .p-5
           #t_2_3
-          .row.align-items-center.mb-5(data-aos="fade-right")
-            .col-auto.pe-0
-              figure
-                img(src='@/assets/curso/tema1/img5.svg', alt='')
-            .col-auto.bg-c4
-              .p-1
-                h2.mb-0 Comportamiento de las máscaras
+          .titulo-segundo.color-primario
+            h2 2.3 Comportamiento de las máscaras
           .row.alin-items-center.mb-5
             .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
               p Las máscaras se enlazan a su correspondiente capa, sin diferenciar si son de capa o vectoriales, este comportamiento se activa por defecto en Photoshop, esto significa que si se mueve la capa hacia arriba o abajo en la pila, lo hace simultáneamente la máscara asociada a la capa.
@@ -165,13 +150,8 @@
                       img(src='@/assets/curso/tema2/img14.png', alt='').fig-w4.m-auto
     Separador
     #t_2_4
-    .row.align-items-center.mb-5(data-aos="fade-right")
-      .col-auto.pe-0
-        figure
-          img(src='@/assets/curso/tema1/img5.svg', alt='')
-      .col-auto.bg-c4
-        .p-1
-          h2.mb-0 Visualización de máscaras
+    .titulo-segundo.color-primario
+      h2 2.4 Visualización de máscaras
     p.mb-5(data-aos="fade-right") Para revisar si una máscara está correcta, se visualiza haciendo clic + Alt sobre el ícono que le corresponde en el panel de capas; esto la mostrará en color negro, en caso de ser una capa o el trazado, si es vectorial.
     .row.justify-content-center
       .col-lg-10(data-aos="fade-left")
@@ -184,13 +164,8 @@
                 img(src='@/assets/curso/tema2/img15.png', alt='').fig-w4.m-auto
     Separador
     #t_2_5
-    .row.align-items-center.mb-5(data-aos="fade-right")
-      .col-auto.pe-0
-        figure
-          img(src='@/assets/curso/tema1/img5.svg', alt='')
-      .col-auto.bg-c4
-        .p-1
-          h2.mb-0 Borrado de máscaras
+    .titulo-segundo.color-primario
+      h2 2.5 Borrado de máscaras
     .row.mb-5(data-aos="fade-down")
       .col-auto.pe-0
         figure.mt-1
