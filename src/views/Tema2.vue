@@ -41,8 +41,6 @@
     p.mb-5(data-aos="fade-right") Al crear la primera máscara de capa, aparece listada al final de la paleta Canales con el nombre y un número compuesto por la capa a la que pertenece.
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="fade-left")
-        .titulo-sexto.color-acento-contenido
-          p.mb-0 #[b Figura 9.] Canales
         .row
           .col-12
             .p-4.p-lg-5.bg-c17
@@ -52,8 +50,6 @@
     p.mb-5(data-aos="fade-right") Cuando el ícono de visibilidad se encuentra desactivado, al activarlo aparecerá por defecto en color rojo transparente el espacio correspondiente a la zona que oculta la máscara, este color y la opacidad pueden ser cambiados haciendo doble clic sobre la máscara y realizando los cambios en el cuadro de diálogo que aparece.
     .row.justify-content-center
       .col-lg-10(data-aos="fade-left")
-        .titulo-sexto.color-acento-contenido
-          p.mb-0 #[b Figura 10.] Ícono de visibilidad
         .row
           .col-12
             .p-4.p-lg-5.bg-c6
@@ -66,8 +62,6 @@
     p.mb-5(data-aos="fade-right") Con las herramientas de creación de trazados, se pueden dibujar formas precisas y luego convertirlas en trazados de recorte, para esto se debe activar en la barra de opciones de las herramientas de trazado, la opción #[b Trazado].
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="fade-left")
-        .titulo-sexto.color-acento-contenido
-          p.mb-0 #[b Figura 11.] 
         .row
           .col-12
             .p-4.p-lg-5.bg-c6
@@ -87,8 +81,6 @@
         p.mb-0 Al ingresar a la pestaña Trazados, en el panel lateral izquierdo, manteniendo activa la capa, aparece el trazado correspondiente a la máscara, en este caso con el nombre Máscara vectorial Capa 0.
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="fade-left")
-        .titulo-sexto.color-acento-contenido
-          p.mb-0 #[b Figura 12.] Trazados
         .row
           .col-12
             .p-4.p-lg-5.bg-c18
@@ -97,8 +89,6 @@
     p.mb-5(data-aos="fade-right") Al seleccionar el trazado de la máscara se puede editar su forma, con las herramientas de selección de forma o de crear trazados, a su vez, realizando cambios a la Máscara vectorial, sin afectar a la imagen original, ni al trazado de origen de la máscara.
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="fade-left")
-        .titulo-sexto.color-acento-contenido
-          p.mb-0 #[b Figura 13.] Máscara
         .row
           .col-12
             .p-4.p-lg-5.bg-c6
@@ -107,8 +97,6 @@
     p.mb-5(data-aos="fade-right") Si se deselecciona la capa asociada a la máscara, inmediatamente desaparece el trazado de la máscara.
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="fade-left")
-        .titulo-sexto.color-acento-contenido
-          p.mb-0 #[b Figura 14.] Deseleccionado de capa
         .row
           .col-12
             .p-4.p-lg-5.bg-c18
@@ -131,8 +119,6 @@
                 img(src='@/assets/curso/tema2/img12.png', alt='').fig-w3.m-auto
           .row.justify-content-center.mb-5
             .col-lg-10(data-aos="fade-left")
-              .titulo-sexto.color-acento-contenido
-                p.mb-0 #[b Figura 15.] Ícono de la cadena
               .row
                 .col-12
                   .p-4.p-lg-5.bg-c17
@@ -141,8 +127,6 @@
           p.mb-5(data-aos="fade-right") Después de realizar las transformaciones del caso, para enlazar nuevamente la capa con la máscara, se hace clic en el espacio que aparece entre los dos íconos, esto activa de nuevo el enlace.
           .row.justify-content-center
             .col-lg-10(data-aos="fade-left")
-              .titulo-sexto.color-acento-contenido
-                p.mb-0 #[b Figura 16.] Activar el enlace
               .row
                 .col-12
                   .p-4.p-lg-5.bg-c17
@@ -155,8 +139,6 @@
     p.mb-5(data-aos="fade-right") Para revisar si una máscara está correcta, se visualiza haciendo clic + Alt sobre el ícono que le corresponde en el panel de capas; esto la mostrará en color negro, en caso de ser una capa o el trazado, si es vectorial.
     .row.justify-content-center
       .col-lg-10(data-aos="fade-left")
-        .titulo-sexto.color-acento-contenido
-          p.mb-0 #[b Figura 17.] Visualización de máscaras
         .row
           .col-12
             .p-4.p-lg-5.bg-c17
@@ -176,7 +158,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido
-          p.mb-0 #[b Figura 18.] Cuadro de diálogo eliminar máscara vectorial
+          p.mb-0 #[b Figura 9.] Cuadro de diálogo eliminar máscara vectorial
         .row
           .col-12
             .p-4.p-lg-5.bg-c17
@@ -186,7 +168,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido
-          p.mb-0 #[b Figura 19.] Cuadro de diálogo al dar clic en Eliminar
+          p.mb-0 #[b Figura 10.] Cuadro de diálogo al dar clic en Eliminar
         .row
           .col-12
             .p-4.p-lg-5.bg-c17
